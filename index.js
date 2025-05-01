@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.port || 3000;
 
 const corsOptions = {
-  origin: ["http://os.netlabdte.com", "http://localhost:5173", "http://8.215.45.41:3000"], 
+  origin: ["http://os.netlabdte.com", "http://localhost:5173", "https://cs9-ditya.vercel.app"], 
   methods: ["GET", "POST", "PUT", "DELETE"],
 };
 app.use(cors(corsOptions));
